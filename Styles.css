@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    font-size: xx-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}           
+
+.ft-size{
+    font-size: 3.0em;
+}
+
+nav ul{
+    display: flex;
+    font-size: x-small;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    color: white;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+
+}
+.home{
+    align-items: right;
+    cursor: pointer;
+    margin-left: 850px;
+    text-align: right;
+}
+
+.Reach{
+    align-items: center;
+    cursor: pointer;
+    margin-left: 30px;          
+}
+
+.Don{
+    align-items: center;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    opacity: 2;
+}
+
+.src{
+    width: 100%;
+    height: 100%;
+}
+
+.foot{
+    margin-top: 50px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+.welcome{
+	position: absolute;
+	width: 650px;
+	height: 300px;
+    margin: 20% 30%;
+	text-align: center;
+}
+
+.table1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    display: flex;
+}
+
+
+.t11{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    display: table;
+    font-weight: lighter;
+    display: table-row-group;
+    float: left;
+    padding-left: 12vh;
+    
+}
+
+.t12{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    display: table;
+    font-weight: lighter;
+    display: table-row-group;
+    padding-left: 25vh;
+    float: left;
+}
+
+.t13{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    display: table;
+    font-weight: lighter;
+    display: table-row-group;
+    padding-left: 35vh;
+    float: left;
+}
+
+.footer1{
+    text-align: center;
+    font-size: medium;
+    font-weight: lighter;
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 3px;
+    margin-bottom: 0px;
+    bottom: 0;
+    background-color: beige;
+}
+
+.butt{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+
+}
